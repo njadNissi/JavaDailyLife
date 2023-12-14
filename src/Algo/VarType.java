@@ -12,17 +12,17 @@ package Algo;
 public class VarType {
      
     public static void main(String[] args) {
-        var z = 19;
+       /* var z = 19;
         System.out.println(Math.pow(z, 3));
-        
+
         var n = new Double[5];
-        
+
         var v = 1.0;
         for (var i = 0; i < n.length; i += 1)
             n[i] = Math.pow((v+i), (i));
-        
+
         for(Double d : n)
-            System.out.print(d+" ");
+            System.out.print(d+" ");*/
     }
     
 }

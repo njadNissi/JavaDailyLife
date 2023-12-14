@@ -13,8 +13,8 @@ public class ArithmeticGame {
         Scanner scanner = new Scanner(System.in);
         
         while(choice == 1){
-            int num1 = random.nextInt(-500,500);
-            int num2 = random.nextInt(-500,500);
+            int num1 = random.nextInt(500);
+            int num2 = random.nextInt(500);
             int op = random.nextInt(4);
             
             System.out.println("      Find\n-----------------------");  

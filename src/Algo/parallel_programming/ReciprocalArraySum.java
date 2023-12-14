@@ -1,5 +1,6 @@
 package Algo.parallel_programming;
 
+import java.util.concurrent.*;
 
 public class ReciprocalArraySum {
     private static double sum1;
@@ -30,13 +31,13 @@ public class ReciprocalArraySum {
         return sum;
     }
 
-    public static double computeSumParallely(double[] X) {
+    public static double computeSumParallel(double[] X) {
         long startTime = System.nanoTime();
         sum1 = 0;
         sum2 = 0;
 
         //compute sum for the upper half of the array
-       /* async(() -> {
+        /*async(() -> {
         for (int i = 0; i < X.length / 2; i++) {
             sum1 += 1 / X[i];
         }});*/

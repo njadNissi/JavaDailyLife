@@ -31,22 +31,22 @@ class Sequence {
         this.reason = reason;
 
         switch(this.type){
-            case ARITH-> {
+            case ARITH:
                     for(int i = 0; i < numOfTerms; i++){
                         double term = firstTerm + i * reason;
                         this.terms.add(term);
                         this.sum += term;
                         this.prod *= term;
                     }
-            }
-            case GEOM -> {
+            break;
+            case GEOM :
                     for(int i = 0; i < numOfTerms; i++){
                         double term = firstTerm * Math.pow(reason, i);
                         this.terms.add(term);
                         this.sum += term;
                         this.prod *= term;
                     }
-            }
+            break;
         }
 
     }

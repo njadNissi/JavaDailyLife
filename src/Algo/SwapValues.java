@@ -29,6 +29,7 @@ public class SwapValues {
     static void swap5(int[] numbers, int ind1, int ind2) {
         numbers[ind1] += (numbers[ind2] - (numbers[ind2] = numbers[ind1]));
     }
+
     static void swap6(int[] numbers, int ind1, int ind2) {
         numbers[ind1] = numbers[ind1] ^ numbers[ind2] ^ (numbers[ind2] = numbers[ind1]);
     }

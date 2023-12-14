@@ -10,7 +10,7 @@ public class Array1D {
         Random random = new Random();
 
         for (int i = 0; i < array.length; i++)
-            array[i] = random.nextInt(-99, 99);
+            array[i] = random.nextInt(99);
     }
 
     static void printWithForLoop(double[] array) {
