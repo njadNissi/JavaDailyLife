@@ -1,2 +1,2 @@
-# Java-basics
+# Java-based maths library
 This is a compilation of many very common and fundamental algorithms and java SE. on top of that, Arithmetics and linear algebra support are provided. we fight to produce a maths library in Java that could compete against Numpy or even TensorFlow.  your contribution is very appreciated and expected! 
