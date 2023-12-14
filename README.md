@@ -1,2 +1,2 @@
 # Java-basics
-Programming is just like any other scientific or technical profession. More basic knowlge will be required for more advanced ones. this is a compilation of many very common and fundamental algorithms and java SE
+This is a compilation of many very common and fundamental algorithms and java SE. on top of that, Arithmetics and linear algebra support are provided. we fight to produce a maths library in Java that could compete against Numpy or even TensorFlow.  your contribution is very appreciated and expected! 
